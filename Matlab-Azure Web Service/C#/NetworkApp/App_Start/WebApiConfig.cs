@@ -17,8 +17,7 @@ namespace ProductsApp
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
-                routeTemplate: "api/{controller}/{action}/{xpro}/{ypro}/{pxy}/{py}",
-                defaults: new { id = RouteParameter.Optional }
+                routeTemplate: "api/{controller}/{action}/{num1}/{num2}/{num3}/{num4}"
             );
         }
     }
